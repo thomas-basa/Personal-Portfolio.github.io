@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  list-style: none;
+}
+
+body{
+  background: #38B6FF;
+}
+
+.page1{
+  height: 100vh;
+  width: 100%;
+  background-color: #66C1EF;
+  background-image: url(images/sfondo-sito.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #f9004d;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #f9004d;
+  transition: .4s;
+}
+
+.bottone{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition:  .4s;
+  cursor: pointer;
+}
+
+.bottone:hover{
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+main{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+h1{
+  color: white;
+  margin: 20px 0 10px;
+  font-size: 70px;
+}
+
+h3{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4{
+  color: white;
+  font-size:25px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.contact form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+}
+
+.contact form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  outline: none;
+  border-radius: 30px;
+}
+
+.contact form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: white;
+  cursor: pointer;
+  top: 6px;
+  right: 6px;
+}
+
+.about{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #38B6FF;
+}
+
+.about img{
+  height: auto;
+  width: 430px;
+}
+
+.about-text{
+  width: 550px;
+}
+
+.main2{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p{
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.project{
+  background: #66C1EF;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.title h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #1D94D8;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  color: #f9004d;
+}
+
+h5{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.text p{
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.card .button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 20px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+.skill{
+  height: 100%;
+  width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  color: #66C1EF;
+  border: 2px solid #f9004d;
+
+}
+
+.skill li{
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.barra{
+  background: #fff;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.barra:hover{
+  box-shadow: 0 14px 28px;
+  cursor: pointer;
+}
+
+.barra span{
+  height: 20px;
+  float: left;
+  background: #f9004d;
+}
+
+.html{
+  width: 70%;
+}
+
+.css{
+  width: 60%;
+}
+
+.social{
+  width: 70%;
+}
+
+.email-marketing{
+  width: 60%;
+}
+
+.copy{
+  width: 50%;
+}
+
+footer .contatti {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #66C1EF;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.contatti .social a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
