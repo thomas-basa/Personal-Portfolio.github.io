@@ -289,10 +289,6 @@ h5{
   width: 60%;
 }
 
-.social{
-  width: 70%;
-}
-
 .email-marketing{
   width: 60%;
 }
@@ -311,7 +307,7 @@ footer .contatti {
   padding-left: 20px;
 }
 
-.contatti .social a{
+.social a{
   display: inline-block;
   color: white;
   text-decoration: none;
